@@ -1,0 +1,47 @@
+# Build artifacts
+build/
+bin/
+obj/
+*.o
+*.so
+*.a
+*.exe
+*.out
+
+# Dependencies
+vendor/
+node_modules/
+__pycache__/
+*.pyc
+venv/
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Docker
+*.log
+data/
+logs/
+
+# System
+Thumbs.db
+
+# Тестовые данные
+coverage_report.html
+*.gcov
+*.gcda
+*.gcno
+
+# Временные файлы
+tmp/
+temp/
