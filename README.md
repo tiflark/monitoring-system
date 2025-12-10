@@ -100,12 +100,9 @@ monitoring-system/
 
 Команды для запуска:
 bash ->
-# 1. Запуск инфраструктуры
 cd docker && docker-compose up -d
 
-# 2. Запуск сервера
 cd receiver && ./run.sh
 
-# 3. Сборка и запуск агента
 cd agent && mkdir build && cd build && cmake .. && make
 ./agent http://localhost:8000/metrics 10
